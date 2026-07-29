@@ -1,0 +1,17 @@
+import HautevilleHouse.CellBiologyGProteinCoupledLemmaCanonicalLaneLean.AdmissibleClass
+import HautevilleHouse.CellBiologyGProteinCoupledLemmaCanonicalLaneLean.GProteinPathwayModels
+import HautevilleHouse.CellBiologyGProteinCoupledLemmaCanonicalLaneLean.SecondMessengerCascade
+import HautevilleHouse.CellBiologyGProteinCoupledLemmaCanonicalLaneLean.GProteinSignalingBranches
+import HautevilleHouse.CellBiologyGProteinCoupledLemmaCanonicalLaneLean.DesensitizationInternalization
+import HautevilleHouse.CellBiologyGProteinCoupledLemmaCanonicalLaneLean.PhysiologicalResponse
+
+namespace HautevilleHouse
+namespace CellBiologyGProteinCoupledLemmaCanonicalLaneLean
+
+-- Root module for the Cell Biology G Protein Coupled Lemma package
+
+def g_protein_endgame (A : AdmissibleClass) : ConstrainedTheoremClosure A := by
+  exact constrained_theorem_closure A
+
+end CellBiologyGProteinCoupledLemmaCanonicalLaneLean
+end HautevilleHouse
